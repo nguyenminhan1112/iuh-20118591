@@ -87,7 +87,7 @@ app.layout = html.Div(
                 children=html.Div(
                     children=[
                         html.H4(
-                            "DOANH SỐ SALE", 
+                            "$", 
                         ),
                         "{:.2f}".format(sales)
                     ],
@@ -98,7 +98,7 @@ app.layout = html.Div(
                 children=html.Div(
                     children=[
                         html.H4(
-                            "LỢI NHUẬN", 
+                            "$", 
                         ),
                         "{:.2f}".format(profit)
                     ],
@@ -109,7 +109,7 @@ app.layout = html.Div(
                 children=html.Div(
                     children=[
                         html.H4(
-                            "TOP DOANH SỐ", 
+                            "$
                         ),
                         maSP_TopSales+', '+"{:.2f}".format(topSales)
                     ],
@@ -120,7 +120,7 @@ app.layout = html.Div(
                 children=html.Div(
                     children=[
                         html.H4(
-                            "TOP LỢI NHUẬN", 
+                            "$", 
                         ),
                         maSP_TopProfit+', '+"{:.2f}".format(topProfit)
                     ],
