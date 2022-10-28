@@ -89,7 +89,7 @@ app.layout = html.Div(
                         html.H4(
                             "$", 
                         ),
-                        "{:.2f}".format(sales)
+                        "{:.2f}"+"$"
                     ],
                     className="label"
                     ),className="card c1"
